@@ -23,3 +23,29 @@ Scikit-learn preprocessing: Includes StandardScaler and MinMaxScaler for feature
 Imputation: SimpleImputer from scikit-learn is used to handle missing values.
 
 Resampling: SMOTE (oversampling) and RandomUnderSampler (undersampling) from the imbalanced-learn library address class imbalance.
+
+### model evaluation and selection 
+
+Metrics:
+
+Classification metrics: f1_score, accuracy_score, recall_score, precision_score, confusion_matrix, roc_auc_score, and ConfusionMatrixDisplay from scikit-learn.
+
+Data splitting: train_test_split for splitting data into training and test sets.
+
+Cross-validation: StratifiedKFold and cross_val_score for robust model evaluation.
+
+### model building and tuning 
+
+Model libraries:
+
+Scikit-learn: Includes DecisionTreeClassifier, AdaBoostClassifier, GradientBoostingClassifier, RandomForestClassifier, BaggingClassifier, and LogisticRegression.
+
+XGBoost: XGBClassifier for gradient boosting.
+
+Hyperparameter tuning: RandomizedSearchCV for efficient hyperparameter optimization.
+
+
+
+
+
+

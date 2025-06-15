@@ -44,6 +44,10 @@ XGBoost: XGBClassifier for gradient boosting.
 
 Hyperparameter tuning: RandomizedSearchCV for efficient hyperparameter optimization.
 
+# project outcome 
+I used Recall as my key way to evaluate models, to minimize false negatives. I figured it would be worse to predict a customer as happy when in fast they are at risk of churn, rather than the other way around. 
+In the end, AdaBoost with hyperparameter tuning performed the best on model evaluation metrics and it was not overfit. XGBoost models (undersampled, oversampled and tuned) were all overfit however I want to explore this model more because of the commercial and enterprise use cases. 
+
 
 
 
